@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-AppWorkhiveApplication<app-workhive>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.workhive.app_workhive.AppWorkhiveApplication",
+            "projectName": "app-workhive",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

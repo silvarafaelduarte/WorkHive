@@ -1,0 +1,57 @@
+<div th:replace="shared/header">...</div>
+
+<!-- Begin Page Content -->
+<div class="container-fluid">
+
+    <!-- Page Heading -->
+    <h1 class="h3 mb-2 text-gray-800">Usuário</h1>
+    <p class="mb-4">Lista de usuários cadastrados no sistema</p>
+
+    <!-- DataTales Example -->
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary">Lista de usuários</h6>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>NOME</th>
+                            <th>LOGIN</th>
+                            <th>EMAIL</th>
+                            <th>DATA CADASTRO</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>João da Silva</td>
+                            <td>joaosilva</td>
+                            <td>teste@teste.com.br</td>
+                            <td>25/04/2024</td>
+                            <td>
+                                <a href="#" class="btn btn-warning" style="margin-right: 5px;">Alterar</a>
+                                <a href="#" class="btn btn-danger">Excluir</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>João da Silva</td>
+                            <td>joaosilva</td>
+                            <td>teste@teste.com.br</td>
+                            <td>25/04/2024</td>
+                            <td>
+                                <a href="#" class="btn btn-warning" style="margin-right: 5px;">Alterar</a>
+                                <a href="#" class="btn btn-danger">Excluir</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!-- /.container-fluid -->
+
+<div th:replace="shared/footer">...</div>
